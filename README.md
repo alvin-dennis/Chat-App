@@ -44,4 +44,4 @@ VITE_FIREBASE_CONFIG={"apiKey":"","authDomain":"","projectId":"","storageBucket"
 ```
 ## Preview
 
-![Live Preview](https://raw.githubusercontent.com/alvin-dennis/Chat-App/master/assets/Preview.png)
+![Live Preview](https://raw.githubusercontent.com/alvin-dennis/Chat-App/main/assets/Preview.png)
