@@ -36,7 +36,7 @@ A personalised chat app built with React and Firebase
 - Create your .env file using the sample given below
 - Run 'npm run build' command
 - Run 'npm run dev' to see the live changes and modify
-- Run 'npm run preview' to see the live site with te last saved edit
+- Run 'npm run preview' to see the live site with the last saved edit
 
 
  ```env
