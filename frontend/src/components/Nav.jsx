@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <div className="navbar bg-primary text-primary-content">
       <div className=" container flex justify-between">
-        <a className="btn btn-ghost text-xl">Strapi ChatRoom</a>
+        <a className="btn btn-ghost text-xl">Chatterhub</a>
         {currentUser ? <button onClick={handleLogout}>Logout</button> : ""}
       </div>
     </div>
