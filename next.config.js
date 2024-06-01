@@ -1,11 +1,6 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  env: {
-    API_KEY: "",
-    AUTH_DOMAIN: "",
-    PROJECT_ID: "",
-    STORAGE_BUCKET: "",
-    MESSAGING_SENDER_ID: "3",
-    APP_ID:""
-  },
-};
+}
+
+module.exports = nextConfig

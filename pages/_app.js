@@ -1,34 +1,30 @@
-import { ChakraProvider, Spinner, Center } from "@chakra-ui/react";
+import '../styles/globals.css'
 import { useAuthState } from 'react-firebase-hooks/auth';
-import Login from "../components/Login";
-import { auth } from "../firebaseconfig"
+import {auth} from "../firebaseconfig"
+import Login from '../components/Login';
+import Head from 'next/head';
+import Footer from '../components/Footer';
 
 function MyApp({ Component, pageProps }) {
-  const [user, loading] = useAuthState(auth);
 
-  if (loading) {
-    return (
-      <ChakraProvider>
-        <Center h="100vh">
-          <Spinner size="xl" />
-        </Center>
-      </ChakraProvider>
-    )
+  const [user, loading, error] = useAuthState(auth);
+  
+
+  if(!user){
+
+
+    return (<Login />)
+
   }
-
-  if (!user) {
-    return (
-      <ChakraProvider>
-        <Login />
-      </ChakraProvider>
-    )
-  }
-
 
   return (
-    <ChakraProvider>
+    <>
+    <Head>
+       <title>Chat App | Chats</title>
+    </Head>
       <Component {...pageProps} />
-    </ChakraProvider>
+      <Footer />
+    </>
   )
 }
 

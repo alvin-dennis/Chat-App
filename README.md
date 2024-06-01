@@ -66,7 +66,7 @@ Set up Firebase:
 
    - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/).
    - Enable Firestore and Authentication services.
-   - Copy your Firebase project configuration and paste it into `next.config.js`file.
+   - Copy your Firebase project configuration and paste it into `.env.example`file and rename the file to `.env`
 
 Start Server
 
@@ -82,20 +82,3 @@ Open the app in your browser at [http://localhost:3000](http://localhost:3000).
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
-
-## Future Features and Plans
-
-Here are some potential features and plans for future development of the chat app:
-
-- **User Profiles**: Allow users to create and customize their profiles with avatars, bios, etc.
-- **Direct Messaging**: Implement private messaging between users.
-- **Emoji Support**: Add support for emojis in chat messages.
-- **Message Editing**: Allow users to edit their sent messages.
-- **Message Deletion**: Implement the ability to delete messages.
-- **File Sharing**: Enable users to share files (images, documents, etc.) in the chat.
-- **Integration with External Services**: Integrate with other platforms or services such as Slack, Discord, etc.
-- **Custom Themes**: Allow users to choose from different themes for the chat interface.
-- **Moderation Tools**: Implement moderation features such as message flagging, banning users, etc.
-- **Localization**: Add support for multiple languages.
-- **Analytics**: Implement analytics to track usage and engagement metrics.
-- **Accessibility Improvements**: Improve accessibility for users with disabilities.

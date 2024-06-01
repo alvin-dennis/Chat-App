@@ -1,6 +1,8 @@
 {
-  "name": "chat-app",
+  "name": "chatterhub",
+  "version": "0.1.0",
   "private": true,
+  "author": "Alvin Dennis",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -8,19 +10,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^1.1.5",
-    "@chakra-ui/react": "^1.8.3",
-    "@emotion/react": "^11",
-    "@emotion/styled": "^11",
-    "firebase": "^9.6.7",
-    "framer-motion": "^5",
-    "next": "^12.3.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^0.27.2",
+    "firebase": "^9.8.4",
+    "next": "12.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-firebase-hooks": "^5.0.3"
   },
   "devDependencies": {
-    "eslint": "8.8.0",
-    "eslint-config-next": "12.0.10"
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
   }
 }
