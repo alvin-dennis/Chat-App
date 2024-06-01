@@ -23,10 +23,6 @@ Through this project, we seek to offer:
 
 By addressing these issues, we aim to empower individuals and businesses with a reliable and efficient means of communication, fostering productivity and collaboration.
 
-## Demo
-Here's the video demo of the chat application
-
-https://github.com/alvin-dennis/Chat-App/assets/134829236/ea91e21c-5248-44fd-8b8b-53b2e75bf1da
 
 
 ## Features
