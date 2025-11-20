@@ -18,7 +18,7 @@ export const Landing: React.FC<LandingProps> = ({ isAuth, setIsAuth }) => {
     };
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 p-6">
+        <div className="min-h-screen flex flex-col items-center justify-center p-6">
             <div className="max-w-2xl w-full text-center">
                 <h1 className="text-4xl font-extrabold text-slate-900 mb-2">Chat App</h1>
                 <p className="text-slate-600 mb-6">Join rooms, chat with friends, and share ideas.</p>
