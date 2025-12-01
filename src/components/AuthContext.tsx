@@ -32,7 +32,7 @@ export const AuthContext: React.FC<AuthContextProps> = ({
                     <h1 className="text-2xl font-bold text-slate-900">Chat App</h1>
                     {isAuth && (
 <a href="/">
-<button classname="bg-blue-500 text-white">Enters another room</button></a>
+<button className="bg-blue-500 text-white">Enters another room</button></a>
                         <button
                             onClick={signUserOut}
                             className="px-3 py-1 bg-red-600 text-white rounded-md"
