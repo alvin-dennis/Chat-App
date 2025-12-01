@@ -30,23 +30,24 @@ export const AuthContext: React.FC<AuthContextProps> = ({
             <header className="bg-white shadow-sm">
                 <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
                     <h1 className="text-2xl font-bold text-slate-900">Chat App</h1>
-                    {isAuth && (
-{isAuth && (
-    <div className="flex items-center gap-3">
-        <a href="/">
-            <button className="px-3 py-1 bg-blue-500 text-white rounded-md">
-                Enter another room
-            </button>
-        </a>
 
-        <button
-            onClick={signUserOut}
-            className="px-3 py-1 bg-red-600 text-white rounded-md"
-        >
-            Sign Out
-        </button>
-    </div>
-)}
+                    {isAuth && (
+                        <div className="flex items-center gap-3">
+                            <a href="/">
+                                <button className="px-3 py-1 bg-blue-500 text-white rounded-md">
+                                    Enter another room
+                                </button>
+                            </a>
+
+                            <button
+                                onClick={signUserOut}
+                                className="px-3 py-1 bg-red-600 text-white rounded-md"
+                            >
+                                Sign Out
+                            </button>
+                        </div>
+                    )}
+                </div>
             </header>
 
             <main className="flex-1">
